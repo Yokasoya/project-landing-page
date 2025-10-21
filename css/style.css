@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.maxwidth {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.header-container {
+    background-color: #1F2937;
+    padding: 18px 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+.links a {
+    font-size: 18px;
+    text-decoration: none;
+    color:  #E5E7EB;
+}
+
+/* HERO */
+
+.hero-container {
+    background-color: #1F2937;
+    padding: 100px 0;
+}
+
+.hero {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    min-width: 245px;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-signup {
+    background-color: #3882F6;
+    color: white;
+    padding: 8px 32px ;
+    border-radius: 8px;
+    border-style: none;
+    margin-top: 16px;
+}
+
+.hero-img {
+    background-color: grey;
+    flex: 1;
+}
+
+.left {
+    flex: 1;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 84px;
+    flex-wrap: wrap;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+/* INFORMATION */
+
+.information-container {
+    background-color: white;
+    padding: 48px 0 88px;
+    text-align: center;
+}
+
+.headline {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+
+.card-container img {
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    margin-bottom: 4px;
+    width: 150px;
+    height: 150px;
+}
+
+.card-container {
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 64px;
+}
+
+.card {
+    max-width: 150px;
+}
+
+/* QUOTE */
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 84px 0;
+
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight:lighter;
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.quote-person {
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    align-self: end;
+    margin: 16px 16px 0 0;
+}
+
+ /* CTO - CALL TO ACTION */
+
+ .cto-container {
+    background-color: white;
+    padding: 48px 0;
+ }
+
+ .cto-section {
+    background-color: #3882F6;
+    border-radius:  8px;
+    color: white;
+    padding: 32px 88px;
+ }
+
+ .cto-signup {
+    width: 100px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius:  4px;
+    padding: 8px 16px;
+    flex: 1 0 auto;
+ }
+
+ .cto-section .left {
+    flex: 8 1 auto;
+ }
+
+ .cto-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+ }
+
+ .cto-header {
+    margin-bottom: 4px;
+ }
+
+ /* FOOTER */
+
+ .footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 18px 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
